@@ -1,12 +1,6 @@
-let Scooter = new Scooter
+let Scooter = new Scooter()
 
-function Scooter(year, color, model) {
-  return {
-    year,
-    color,
-    model
-  }
-}
+
 
 function Driver(name, age, experience) {
   return {
