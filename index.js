@@ -1,3 +1,5 @@
+let Scooter = new Scooter
+
 function Scooter(year, color, model) {
   return {
     year,
