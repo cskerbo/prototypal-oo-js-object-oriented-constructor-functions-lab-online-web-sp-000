@@ -5,7 +5,7 @@ function Scooter(year, color, model) {
     model
   }
 }
-let newScooter = new Scooter()
+let newScooter = new Scooter('1984', 'blue', 'Honda');
 
 function Driver(name, age, experience) {
   return {
