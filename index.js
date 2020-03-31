@@ -13,3 +13,10 @@ function Driver(name, age, experience) {
     experience
   }
 }
+
+function PickupLocation(address, city) {
+  return {
+    address,
+    city
+  }
+}
