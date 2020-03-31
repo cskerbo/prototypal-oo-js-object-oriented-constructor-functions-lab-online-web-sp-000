@@ -1,9 +1,7 @@
 function Scooter(year, color, model) {
-  return {
-    year,
-    color,
-    model
-  }
+    this.year = year;
+    this.color = color;
+    this.model = model;
 }
 let newScooter = new Scooter('1984', 'blue', 'Honda');
 
